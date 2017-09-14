@@ -1,0 +1,66 @@
+mark {
+    background: lightgray;
+}
+mark.current {
+    background: red;
+    color: white;
+}
+body {
+    background: #CDCDCD;
+}
+.full {
+    background: linear-gradient(left bottom, crimson, #ED6565);
+    background: crimson;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    background: white;
+    z-index: 99;
+    transform: all .3s ease;
+}
+#inp {
+    width: 450px;
+    transform: all .3s ease;
+}
+button {
+    display: none;
+    transform: all .3s ease;
+}
+.content {
+    margin-top: 50px;
+}
+.center {
+    text-align: center;
+}
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+}
+button,
+input[type='search'] {
+    border-radius: 0;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, .5);
+    transform: all .3s ease;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
